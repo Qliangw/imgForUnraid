@@ -1,3 +1,5 @@
+图片均来自群友们，感谢群友大大们的分享
+
 ## Emby示例
 
 ![](https://raw.githubusercontent.com/Qliangw/imgForUnraid/main/emby_img/img/emby_demo.png)
