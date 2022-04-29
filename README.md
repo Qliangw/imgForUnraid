@@ -8,3 +8,21 @@
 | emby_img | 存放emby封面图          |
 
 > 当然这些图片都可以通用...
+
+-----------
+
+emby封面
+
+![](https://raw.githubusercontent.com/Qliangw/imgForUnraid/main/_img/emby.png)
+
+
+
+docker图标
+
+![](https://raw.githubusercontent.com/Qliangw/imgForUnraid/main/_img/docker.png)
+
+
+
+导航图标
+
+![](https://raw.githubusercontent.com/Qliangw/imgForUnraid/main/_img/navi.png)
