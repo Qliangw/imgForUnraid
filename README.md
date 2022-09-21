@@ -39,13 +39,18 @@
 
 <details>
   <summary>app_img</summary>
-  预览
 
-![](https://raw.githubusercontent.com/Qliangw/imgForUnraid/main/_img/app_img-others.png)
+### ios_style
+
+![](https://raw.githubusercontent.com/Qliangw/imgForUnraid/main/_img/app_img-ios_style.png)
+
+### official_logo
 
 ![](https://raw.githubusercontent.com/Qliangw/imgForUnraid/main/_img/app_img-official_logo.png)
 
-![](https://raw.githubusercontent.com/Qliangw/imgForUnraid/main/_img/notify_wx.png)
+### others
+
+![](https://raw.githubusercontent.com/Qliangw/imgForUnraid/main/_img/app_img-others.png)
 
 </details>
 
