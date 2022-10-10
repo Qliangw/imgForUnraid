@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>pagermaid</Name>
+  <Repository>mrwangzhe/pagermaid_modify</Repository>
+  <Registry>https://hub.docker.com/r/mrwangzhe/pagermaid_modify</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://hub.docker.com/r/mrwangzhe/pagermaid_modify</Project>
+  <Overview/>
+  <Category>HomeAutomation:</Category>
+  <WebUI>http://[IP]:[PORT:3333]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/Qliangw/imgForUnraid/main/app_img/official_logo/pagermaid_01.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1663800034</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Port" Target="3333" Default="3333" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">3333</Config>
+  <Config Name="env" Target="RUN_AS_ROOT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+  <Config Name="PATH" Target="/pagermaid/workdir" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/pagermaid</Config>
+</Container>

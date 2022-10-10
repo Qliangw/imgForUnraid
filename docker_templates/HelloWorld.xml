@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>jd</Name>
+  <Repository>supermanito/helloworld:latest</Repository>
+  <Registry>https://hub.docker.com/r/supermanito/helloworld</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://supermanito.github.io/Helloworld/#/</Project>
+  <Overview/>
+  <Category>HomeAutomation: Status:Stable</Category>
+  <WebUI>http://[IP]:[PORT:5678]</WebUI>
+  <TemplateURL/>
+  <Icon>https://supermanito.github.io/Helloworld/img/logo.gif</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1663809614</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="PATH" Target="/jd/config" Default="/mnt/user/appdata/jd/config" Mode="rw" Description="&#x5B9A;&#x4E49;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x7684;&#x4E3B;&#x673A;&#x6302;&#x8F7D;&#x76EE;&#x5F55;" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/jd/config</Config>
+  <Config Name="PATH" Target="/jd/log" Default="/mnt/user/appdata/jd/log" Mode="rw" Description="&#x5B9A;&#x4E49;&#x65E5;&#x5FD7;&#x6587;&#x4EF6;&#x7684;&#x4E3B;&#x673A;&#x6302;&#x8F7D;&#x76EE;&#x5F55;" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/jd/log</Config>
+  <Config Name="PATH" Target="/jd/scripts" Default="/mnt/user/appdata/jd/scripts" Mode="rw" Description="&#x5B9A;&#x4E49; Scripts &#x4E3B;&#x8981;&#x4ED3;&#x5E93;&#x7684;&#x4E3B;&#x673A;&#x6302;&#x8F7D;&#x76EE;&#x5F55;" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/jd/scripts</Config>
+  <Config Name="PATH" Target="/jd/own" Default="/mnt/user/appdata/jd/own" Mode="rw" Description="&#x5B9A;&#x4E49; Own &#x6269;&#x5C55;&#x4ED3;&#x5E93;&#x548C;&#x6269;&#x5C55;&#x811A;&#x672C;&#x7684;&#x4E3B;&#x673A;&#x6302;&#x8F7D;&#x76EE;&#x5F55;" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/jd/own</Config>
+  <Config Name="PATH" Target="/jd/jbot" Default="/mnt/user/appdata/jd/jbot" Mode="rw" Description="&#x5B9A;&#x4E49;&#x7535;&#x62A5;&#x673A;&#x5668;&#x4EBA;&#x7684;&#x4E3B;&#x673A;&#x6302;&#x8F7D;&#x76EE;&#x5F55;" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/jd/jbot</Config>
+  <Config Name="PORT" Target="5678" Default="5678" Mode="tcp" Description="&#x4E3B;&#x673A;&#x7AEF;&#x53E3;&#x53F7;&#x53EF;&#x81EA;&#x5B9A;&#x4E49;&#xFF0C;&#x5BB9;&#x5668;&#x7AEF;&#x53E3;&#x7528;&#x6765;&#x8BBF;&#x95EE;&#x63A7;&#x5236;&#x9762;&#x677F;&#x4E0D;&#x53EF;&#x4FEE;&#x6539;" Type="Port" Display="always-hide" Required="true" Mask="false">5678</Config>
+  <Config Name="ENV" Target="ENABLE_ALL_ENV" Default="true" Mode="" Description="&#x662F;&#x5426;&#x5728;&#x5BB9;&#x5668;&#x542F;&#x52A8;&#x65F6;&#x9884;&#x88C5;&#x73AF;&#x5883;&#x5305;&#x4E0E;&#x5E38;&#x7528;&#x6A21;&#x5757;" Type="Variable" Display="always-hide" Required="true" Mask="false">true</Config>
+  <Config Name="ENV" Target="ENABLE_WEB_PANEL" Default="true" Mode="" Description="&#x662F;&#x5426;&#x5728;&#x5BB9;&#x5668;&#x542F;&#x52A8;&#x65F6;&#x5F00;&#x542F;&#x63A7;&#x5236;&#x9762;&#x677F;&#x670D;&#x52A1;" Type="Variable" Display="always-hide" Required="true" Mask="false">true</Config>
+  <Config Name="ENV" Target="ENABLE_HANGUP" Default="false" Mode="" Description="&#x662F;&#x5426;&#x5728;&#x5BB9;&#x5668;&#x542F;&#x52A8;&#x65F6;&#x5F00;&#x542F;&#x540E;&#x53F0;&#x6302;&#x673A;&#x670D;&#x52A1;" Type="Variable" Display="always-hide" Required="false" Mask="false">false</Config>
+  <Config Name="ENV" Target="ENABLE_TG_BOT" Default="false" Mode="" Description="&#x662F;&#x5426;&#x5728;&#x5BB9;&#x5668;&#x542F;&#x52A8;&#x65F6;&#x5F00;&#x542F;&#x7535;&#x62A5;&#x673A;&#x5668;&#x4EBA;&#x670D;&#x52A1;" Type="Variable" Display="always-hide" Required="false" Mask="false">true</Config>
+</Container>
